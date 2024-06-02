@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
     setInterval(showNextImage, 5000); // Change image every 5 seconds
   });
 
-  function openNav() {
+function openNav() {
     document.getElementById("myNav").style.width = "250px";
 }
 

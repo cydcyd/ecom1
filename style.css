@@ -56,10 +56,10 @@ html, body {
 }
 
 .nav-menu .bar {
-    width: 35px;
+    width: 25px;
     height: 5px;
     background-color: white;
-    margin: 6px 0;
+    margin: 3px 0;
     transition: 0.4s;
 }
 
@@ -93,13 +93,26 @@ html, body {
 }
 
 .overlay-content a:hover, .overlay-content a:focus {
-    color: #f1f1f1;
+    color: rgb(46, 46, 46);
 }
 
 .closebtn {
     position: absolute;
     top: 20px;
     left: 20px;
-    font-size: 60px;
+    font-size: 30px;
     color: white;
+    border-radius: 10px;
+}
+
+/* shop page css */
+.shop-page {
+    position: absolute;
+    top: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 2rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0 ,0.7);
+    z-index: 1;
 }
