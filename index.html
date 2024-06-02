@@ -10,15 +10,36 @@
     <title>e-commerce project 1</title>
 </head>
 
-<body>    
+<body>
+        <!-- Background of HomePage--> 
     <div class="slideshow-container">
         <div class="slideshow">
             <img src="ecom1/images/evening.jpg" class="visible">
             <img src="ecom1/images/hotwheels.jpg">
             <img src="ecom1/images/multi.jpg">
         </div>
+    
+        <!--Nav Hamburger-->
+        <div class="nav-menu" onclick="openNav()">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+        <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+                <a href="#">Home</a>
+                <a href="#">Shop</a>
+                <a href="#">Info</a>
+            </div>
+        </div>
+              
     </div>
+    
+<!--Company Name/Logo-->
     <h1 class="company-name">BODHI CO.</h1>
+
+<!--Javascript-->
     <script src="script.js"></script>
 </body>
 
