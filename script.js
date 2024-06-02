@@ -19,3 +19,11 @@ function openNav() {
 function closeNav() {
     document.getElementById("myNav").style.width ="0";
 }
+
+function openCheckout() {
+  document.getElementById("myCheckout").style.width = "250px";
+}
+
+function closeCheckout() {
+  document.getElementById("myCheckout").style.width ="0";
+}

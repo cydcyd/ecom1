@@ -43,10 +43,10 @@ html, body {
     transform: translateX(-50%);
     color: white;
     font-size: 3rem;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0 ,0.7);
+    text-shadow: 2px 2px 4px rgba(106, 105, 105, 0.7);
     z-index: 1;
 }
-
+/* navigation menu and tab */
 .nav-menu {
     position: absolute;
     top: 20px;
@@ -57,8 +57,9 @@ html, body {
 
 .nav-menu .bar {
     width: 25px;
-    height: 5px;
+    height: 4px;
     background-color: white;
+    border-radius: 2px;
     margin: 3px 0;
     transition: 0.4s;
 }
@@ -115,4 +116,65 @@ html, body {
     font-size: 2rem;
     text-shadow: 2px 2px 4px rgba(0, 0, 0 ,0.7);
     z-index: 1;
+}
+
+/*info page css*/
+.info-page {
+    position: absolute;
+    top: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 2rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0 ,0.7);
+    z-index: 1;
+}
+
+/*checkout tab container */
+.checkout-tab-container {
+    width: 35px;
+    height: 25px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.checkout-tab-container img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+.overlay-checkout {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 3;
+    top: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.closeCheckout {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 30px;
+    color: white;
+    border-radius: 10px;
+}
+
+.overlay-checkout-p {
+    padding: 30px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s; 
 }
