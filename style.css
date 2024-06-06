@@ -196,3 +196,6 @@ html, body {
     display: block;
     transition: 0.3s; 
 }
+.checkout-box a:hover, .checkout-box a:focus {
+    color: rgb(46, 46, 46);
+}
