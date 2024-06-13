@@ -3,19 +3,35 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/shop.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Jersey+10&family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
   <title>Shop</title>
 </head>
 <body>
-  
-  <div class="slideshow-container">
-      <div class="slideshow">
-          <img src="ecom1/images/evening.jpg" class="visible">  
+  <!--buttons-container-->
+  <Div class="buttons-container">
+    <!--leticia button-->
+    <button type="button" class="button-leticia">
+      <div class="leticia-container">
+        <P class="text-leticia">LETICIA 
+          <img src="images/leticia Background Removed.png" class="leticia">
+        </P>
+        <button class="L-add-to-cart">+</button>
       </div>
+    </button>
 
+      <button type="button" class="prod-button">
+        <div class="prod-container">
+          <p id="text-prod">P.ROD
+            <img src="images/prod Background Removed.png" class="PROD">
+            <button class="P-add-to-cart">+</button>
+          </p>
+        </div>
+      </button>
+  </Div> 
+  <!--end buttons-container-->
     <!--Nav Hamburger-->
     <div class="nav-menu" onclick="openNav()">
       <div class="bar"></div>
@@ -33,19 +49,19 @@
     </div>
      <!--cart container-->
      <div class="checkout-tab-container" onclick="openCheckout()">
-      <img src="ecom1/images/cart.png">
-  </div>
-  <div id="myCheckout" class="overlay-checkout">
-      <a href="javascript:void(0)" class="closeCheckout" onclick="closeCheckout()">&times;</a>
-      <p class="overlay-checkout-p">CART</p>
-      <div class="checkout-box">
-          <a href="checkout.html">CHECKOUT</a>
-      </div>
-  </div> <!--cart container-->
-  </div><!--slideshow container-->
-<!--Title Shop page-->
+      <img src="images/cart.png">
+    </div>
+    <div id="myCheckout" class="overlay-checkout">
+        <a href="javascript:void(0)" class="closeCheckout" onclick="closeCheckout()">&times;</a>
+        <p class="overlay-checkout-p">CART</p>
+        <div class="checkout-box">
+            <a href="checkout.html">CHECKOUT</a>
+        </div>
+    </div> <!-- end cart container-->
+
+  <!--Title Shop page-->
   <h1 class="shop-page">SHOP</h1>
-<!--Javascript-->
-<script src="script.js"></script>
+  <!--Javascript-->
+  <script src="script.js"></script>
 </body>
 </html>
