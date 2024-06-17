@@ -99,15 +99,15 @@ html, body {
 
 .closebtn {
     position: absolute;
-    top: 10px;
-    left: 25px;
+    top: 17px;
+    left: 20px;
     font-size: 30px;
     color: white;
     border-radius: 10px;
 }
 
 /* shop page css */
-.shop-page {
+.shop-page { /*page title*/
     position: absolute;
     top: -5px;
     left: 50%;
@@ -121,14 +121,6 @@ html, body {
     background-color: black;
 }
 
-.leticia {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 300px;
-    height: 300px;
-    z-index: 999999;
-}
 
 /*info page css*/
 .info-page {
@@ -175,8 +167,8 @@ html, body {
 
 .closeCheckout {
     position: absolute;
-    top: 10px;
-    right: 30px;
+    top: 17px;
+    right: 20px;
     font-size: 30px;
     color: white;
     border-radius: 10px;

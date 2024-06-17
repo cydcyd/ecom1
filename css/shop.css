@@ -8,116 +8,67 @@
     text-shadow: 2px 2px 4px rgba(0, 0, 0 ,0.7);
     z-index: 1;
 }
-.buttons-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-
+/**footer**/
+#footer {
+    background-color: rgb(239, 0, 0);
+    color: white;
 }
-/** leticia container with button**/
-.button-leticia {
-    display: flex;
+/**items-container**/
+.items-container {
+   display: flex;
+   border: none;
+   height: 100%;
+   flex-wrap: wrap;
+   align-content: flex-start;
+   column-gap: 2em;
+   row-gap: 2em;
+}
+
+.product-boards {
+    height: 300px;
+    width: 300px;
+    padding: 10px;
+    margin: auto;
+    background-color: black;
+    
+}
+
+.boards-button {
+    color: gray;
+    font-size: 30px;
+    border-radius: 2px;
+    background-color: white;
     border: none;
-    justify-content: center;
-    align-items: center;
-    height: 310px;
-    width: 375px;
-    background-color: rgba(203, 14, 14, 0);
     cursor: pointer;
+    transition-duration: 0.4s;
 }
 
-.leticia-container {
-    display: flex;
-    justify-content: center;
-    height: 300px;
-    width: 300px;
+.boards-button:hover {
+    color: white;
+    background-color: gray;
 }
 
-.leticia {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 300px;
-    height: 300px;
-    z-index: 1;
-    transform: rotate(90deg);
+/**individual product names BOARDS**/
+#leticia {
+    width: 200px;
+    height: 250px;
+    rotate: 90deg;
 }
-
 .text-leticia {
     color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
-.L-add-to-cart {
-    color: gray;
-    font-size: 30px;
-    border-radius: 2px;
-    background-color: rgba(255, 255, 255, 0.845);
-    border: none;
-    cursor: pointer;
-    transition-duration: 0.4s;
-
+#prod {
+    width: 200px;
+    height: 250px;
+    rotate: 90deg;
 }
-.L-add-to-cart:hover {
-    background-color: gray;
+.text-prod {
     color: white;
 }
-/**end leticia container**/
-
-/**prod container with button**/
-.PROD {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 300px;
-    height: 300px;
-    z-index: 1;
-    transform: rotate(90deg);
-}
-
-.prod-button {
-    display: flex;
-    border: none;
-    justify-content: right;
-    align-items: center;
-    height: 310px;
-    width: 375px;
-    background-color: rgba(203, 14, 14, 0);
-    cursor: pointer;
-}
-
-#text-prod {
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center
-}
-
-.prod-container {
-    display: flex;
-    justify-content: center;
-    height: 300px;
-    width: 300px;
-}
-
-.P-add-to-cart {
-    color: gray;
-    font-size: 30px;
-    border-radius: 2px;
-    background-color: rgba(255, 255, 255, 0.845);
-    border: none;
-    cursor: pointer;
-    transition-duration: 0.4s;
-}
-
-.P-add-to-cart:hover {
-    background-color: gray;
+.h6 {
     color: white;
 }
-/**end prod container**/
 html, body {
     margin: 0;
     padding: 0;

@@ -10,28 +10,34 @@
   <title>Shop</title>
 </head>
 <body>
-  <!--buttons-container-->
-  <Div class="buttons-container">
-    <!--leticia button-->
-    <button type="button" class="button-leticia">
-      <div class="leticia-container">
-        <P class="text-leticia">LETICIA 
-          <img src="images/leticia Background Removed.png" class="leticia">
-        </P>
-        <button class="L-add-to-cart">+</button>
+    <header style="background-color: rgba(118, 118, 118, 0.307);">
+      <h1 class="shop-page">SHOP</h1>
+    </header>
+    <!--items-container-->
+    <Div class="items-container">
+      <div class="product-boards">
+        <a href="images/leticia Background Removed.png">
+          <img src="images/leticia Background Removed.png" id="leticia">
+        </a>
+          <p id="text-leticia">LETICIA</p>
+        <button class="boards-button">+</button>
       </div>
-    </button>
-
-      <button type="button" class="prod-button">
-        <div class="prod-container">
-          <p id="text-prod">P.ROD
-            <img src="images/prod Background Removed.png" class="PROD">
-            <button class="P-add-to-cart">+</button>
-          </p>
-        </div>
-      </button>
-  </Div> 
-  <!--end buttons-container-->
+      <div class="product-boards">
+        <a href="images/prod Background Removed.png">
+          <img src="images/prod Background Removed.png" id="prod">
+        </a>
+        <p>PROD</p>
+        <button class="boards-button">+</button>
+      </div>
+      <div class="product-boards"></div>
+      <div class="product-boards"></div>
+      <div class="product-boards"></div>
+      <div class="product-boards"></div>
+      <div class="product-boards"></div>
+      <div class="product-boards"></div>
+      <div class="product-boards"></div>
+    </Div> 
+    <!--end items-container-->
     <!--Nav Hamburger-->
     <div class="nav-menu" onclick="openNav()">
       <div class="bar"></div>
@@ -58,10 +64,16 @@
             <a href="checkout.html">CHECKOUT</a>
         </div>
     </div> <!-- end cart container-->
-
-  <!--Title Shop page-->
-  <h1 class="shop-page">SHOP</h1>
+  
   <!--Javascript-->
   <script src="script.js"></script>
+
+<footer style="position: sticky;">
+  <p id="footer">BODHI SKATEBOARDING COMPANY &copy; copyright reserved</p>
+ 
+</footer>
+
 </body>
+
+
 </html>
